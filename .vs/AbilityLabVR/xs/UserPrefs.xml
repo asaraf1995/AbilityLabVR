@@ -1,0 +1,30 @@
+﻿<Properties StartupConfiguration="{81934BE9-4FFC-5A6F-CB73-66CEEF753A9B}|">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WalkLeft.cs">
+    <Files>
+      <File FileName="Assets/Scripts/FeetPosition.cs" Line="26" Column="70" />
+      <File FileName="Assets/Scripts/WalkLeft.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/WalkRight.cs" Line="1" Column="1" />
+      <File FileName="Assets/Scripts/switchPlayArea.cs" Line="1" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="AbilityLabVR" expanded="True">
+            <Node name="Assets" expanded="True">
+              <Node name="Scripts" expanded="True">
+                <Node name="WalkLeft.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="1a3e9312-eff6-4bee-b192-251eb3bce893" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
