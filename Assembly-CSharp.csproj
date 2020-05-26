@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scripts\CarMovement.cs" />
     <Compile Include="Assets\Scripts\FeetPosition.cs" />
     <Compile Include="Assets\Scripts\makeScene.cs" />
+    <Compile Include="Assets\Scripts\score.cs" />
     <Compile Include="Assets\Scripts\switchPlayArea.cs" />
     <Compile Include="Assets\Scripts\UnityMainThreadDispatcher.cs" />
     <Compile Include="Assets\Scripts\WalkLeft.cs" />
