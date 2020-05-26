@@ -45,7 +45,8 @@ public class CarMovement : MonoBehaviour
         {
             Debug.Log("collision");
             WalkSignal ws = other.gameObject.transform.parent.GetComponent<WalkSignal>();
-            if (cardirection == 1)
+            //1 is forward, 2 is backward, 3 is left, 4 is right car
+            if (cardirection == 1 || cardirection == 2)
             {
                 if (!ws.local && ws.timestep > 0.5)
                 {
@@ -65,7 +66,8 @@ public class CarMovement : MonoBehaviour
                 }
                 else
                 {
-                    Debug.Log("here 2");
+                    hasWalkSignal = true;
+                    wsignal = ws;
                 }
             }
         }

@@ -1,11 +1,11 @@
 ﻿<Properties StartupConfiguration="{81934BE9-4FFC-5A6F-CB73-66CEEF753A9B}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/WalkLeft.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/_WalkLeft.cs">
     <Files>
       <File FileName="Assets/Scripts/FeetPosition.cs" Line="26" Column="70" />
-      <File FileName="Assets/Scripts/WalkLeft.cs" Line="24" Column="1" />
-      <File FileName="Assets/Scripts/WalkRight.cs" Line="23" Column="14" />
       <File FileName="Assets/Scripts/switchPlayArea.cs" Line="1" Column="1" />
-      <File FileName="Assets/VRTK/Source/Scripts/Internal/VRTK_CollisionTracker.cs" Line="77" Column="1" />
+      <File FileName="Assets/VRTK/Source/Scripts/Internal/VRTK_CollisionTracker.cs" Line="97" Column="1" />
+      <File FileName="Assets/Scripts/_WalkRight.cs" Line="5" Column="15" />
+      <File FileName="Assets/Scripts/_WalkLeft.cs" Line="6" Column="15" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -13,7 +13,7 @@
           <Node name="AbilityLabVR" expanded="True">
             <Node name="Assets" expanded="True">
               <Node name="Scripts" expanded="True">
-                <Node name="WalkLeft.cs" selected="True" />
+                <Node name="_WalkLeft.cs" selected="True" />
               </Node>
               <Node name="VRTK" expanded="True">
                 <Node name="Source" expanded="True">
@@ -27,7 +27,10 @@
         </State>
       </Pad>
       <Pad Id="MonoDevelop.Debugger.WatchPad">
-        <State />
+        <State>
+          <Value>cube_number</Value>
+          <Value>col.name</Value>
+        </State>
       </Pad>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
@@ -42,7 +45,8 @@
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/aasthasaraf/Downloads/AbilityLabVR/Temp/UnityTempFile-8b9b1560e00d8448c89fa3676c66fccb" relfile="Temp/UnityTempFile-8b9b1560e00d8448c89fa3676c66fccb" line="24" column="1" />
-      <Breakpoint file="/Users/aasthasaraf/Downloads/AbilityLabVR/Assets/Scripts/WalkLeft.cs" relfile="Assets/Scripts/WalkLeft.cs" line="24" column="1" />
+      <Breakpoint file="/Users/aasthasaraf/Downloads/AbilityLabVR/Temp/UnityTempFile-1b7125e4a9bd34088970bb3ba7b01656" relfile="Temp/UnityTempFile-1b7125e4a9bd34088970bb3ba7b01656" line="24" column="1" />
+      <Breakpoint file="/Users/aasthasaraf/Downloads/AbilityLabVR/Temp/UnityTempFile-be9023466452d421caa89f0b927de163" relfile="Temp/UnityTempFile-be9023466452d421caa89f0b927de163" line="19" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MultiItemStartupConfigurations />

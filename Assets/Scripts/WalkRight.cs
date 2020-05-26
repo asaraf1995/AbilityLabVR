@@ -6,7 +6,6 @@ public class WalkRight : MonoBehaviour
 {
     public GameObject sound;
     public GameObject wrongsound;
-    public Text ScoreText;
 
     public Dictionary<string, GameObject> cubes = new Dictionary<string, GameObject>();
 
@@ -16,15 +15,7 @@ public class WalkRight : MonoBehaviour
         var col = collision.gameObject;
         var cube_number = col.name.Split(' ')[2].Trim();
         if (col.name.Split(' ')[0] == "green")
-        {
-            if (WalkLeft.right.Contains(col.name))
-            {
-            }
-            else
-            {
-                WalkLeft.right.Add(col.name);
-            }
-            
+        {  
             if (cubes.TryGetValue(cube_number, out GameObject val))
             {
                 
@@ -43,18 +34,12 @@ public class WalkRight : MonoBehaviour
         }
         else if (col.name.Split(' ')[0] == "red")
         {
-            if (WalkLeft.wrong.Contains(col.name) || WalkLeft.right.Contains(col.name))
-            { }
-            else
-            {
-                WalkLeft.wrong.Add(col.name);
-            }
-           // WalkLeft.right.Add(cube_number);
+            
             sound.GetComponent<AudioSource>().Stop();
             wrongsound.GetComponent<AudioSource>().Play();
             
         }
-        setScoreText();
+       
     }
 
     public IEnumerator waitforsec(int sec, GameObject obj)
@@ -75,16 +60,7 @@ public class WalkRight : MonoBehaviour
             item.transform.GetChild(0).gameObject.SetActive(true);
         }
         cubes = new Dictionary<string, GameObject>();
-        WalkLeft.right.Clear();
-        WalkLeft.wrong.Clear();
-        resetScore();
+       
     }
-    public void setScoreText()
-    {
-        ScoreText.text = "Score: " + (WalkLeft.right.Count - WalkLeft.wrong.Count).ToString();
-    }
-    public void resetScore()
-    {
-        ScoreText.text = "Let's Begin!!!";
-    }
+    
 }

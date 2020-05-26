@@ -6563,7 +6563,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sound: {fileID: 1766015102}
   wrongsound: {fileID: 204030159}
-  right: {fileID: 0}
+  right: {fileID: 987020805}
 --- !u!1 &566779486
 GameObject:
   m_ObjectHideFlags: 0
@@ -11304,7 +11304,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   sound: {fileID: 1766015102}
   wrongsound: {fileID: 204030159}
-  left: {fileID: 0}
+  left: {fileID: 554551285}
 --- !u!1 &988666230
 GameObject:
   m_ObjectHideFlags: 0
